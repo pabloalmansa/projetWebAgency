@@ -1,0 +1,543 @@
+/* Définition des polices personnalisées */
+@font-face{
+	font-family: 'Roboto-Regular';
+	src: url('Roboto-Regular.ttf') format('truetype');
+}
+ html{
+ 	font-family: "Roboto-Regular", "arial", sans-serif;
+ 	width: 100%;
+ 	margin:0px;
+ 	align-items: center;
+ }
+ body{
+ 	margin: 0px;
+ }
+ h1{
+ 	font-size: 45px;
+ }
+ h2{
+ 	font-size: 45px;
+ }
+#blocPage{
+	width: 100%;
+	margin:auto;
+	overflow-x: hidden; 
+}
+/*fixation du header*/
+header{
+	display: flex;
+	position:fixed ;
+	top: 0;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+	background: white;
+	z-index:100;
+	margin: auto;
+}
+/*menu principal en haut de la page*/
+nav ul{
+	position: relative;
+	left: 40px;
+	list-style-type: none;
+    display: flex;
+    background-color: white;
+}
+
+nav li{
+	margin-right: 20px;
+	margin-top: 20px;
+	font-size: 14px;
+	width: 60px;
+}
+nav li a{
+	text-decoration: none;	
+	color: black;
+
+}
+ nav li a:hover{
+ 	
+ 	border-top: 3px solid #45aed6;
+ 	padding-top: 33px;
+ 	padding-right: 5px;
+ 	padding-left: 6px;
+ 	border-width: 60px;
+ }
+#logo{
+	position: relative;
+	left: -80px;
+}
+#accueil{
+	background: url(images/slider/bg1.jpg) no-repeat;
+	background-size: cover;
+	height: 500px;
+    color: white;
+    border-bottom: 50px inset #f5f5f5;
+   margin-top: 100px;
+   position: relative;
+}
+/*positionement et mise en forme des petites fleches pseudo slider*/
+#accueil i:nth-child(1){	
+	position: absolute;
+	top:240px;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	width: 20px; 
+ 	height: 49px; 
+ 	border-radius: 0px 49px 49px 0px;
+	background-color: rgba(0,0,0,.2);
+	cursor: pointer;
+	line-height: 49px;
+
+}
+#accueil  i:nth-child(2){
+position: absolute;
+top:240px;
+right: 0px;
+text-align: center;
+padding: 8px;
+width: 20px; 
+height: 49px; 	
+color: white;
+border-radius: 49px 0px 0px 49px;
+background-color: rgba(0,0,0,.2);
+cursor: pointer;
+line-height: 49px;
+}
+#accueil span{
+	color:#45aed6;
+}
+#presentation{
+	position: absolute;
+	top: 130px;
+	left: 100px;
+	font-size: 16px;
+}
+#presentation p{
+	text-align: left;
+}
+#presentation h2 {
+	margin-bottom: 7px;
+}
+.boutonBleu
+{
+    border-bottom:3px solid #3b8dac;
+    font-size: 1.2em;
+    
+    padding: 8px 8px 8px 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #45aed6;
+}														/*SERVICES*/
+hr{
+	height: 1px;
+	border:0;
+    background-color: silver;
+    width: 50px;
+    position: relative;
+}
+#photoTexte{
+	display: flex;
+}
+#nosServices{
+	text-align: center;
+	padding-top: 50px;
+    border-bottom: 25px inset #f5f5f5;
+    position: relative;
+    margin-top: 50px;
+}
+#nosServices p{
+	margin-bottom: 50px;	
+}
+#bouleBleue{
+	margin: auto;
+}
+.gauche{
+	left:-58px;
+	top: 14px;
+}
+.droite{
+	right: -15px;
+	top: -23px;
+}
+#photoTexte img{
+	width: 600px;
+	position: relative;
+	left: 20px;
+	margin-right: 0px;
+}
+
+.menuServices i {
+	color:#45aed6;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.menuServices ul{
+	list-style-type: none;
+	text-align: justify;
+	margin-left: 80px;
+	margin-top: 90px;
+	position: relative;
+	width: 80%;
+}
+.menuServices li{	
+	margin-left: 40px;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+.menuServices li strong{
+	font-size: 20px;
+}
+.menuServices span{
+	display: inline-block;
+	margin-top: 5px;
+	vertical-align: top;
+	float: left;
+	position: relative;
+}
+.menuServices span i{
+padding: 20px;
+margin-right: -10px;
+border: 1px solid silver;
+border-radius: 100%;
+}
+#nosServices  .fa-circle:nth-child(2){
+position: relative;
+left:-20px;
+top:-4px;
+border:none;
+color:#45aed6;
+}
+												/*  Nos Projets */
+#nosProjets{
+	background-color:#f5f5f5; 
+	padding-top: 50px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+	width: 100%;
+}
+#nosProjets h2, p, ul{
+	text-align: center;
+	justify-content: center;
+}
+#bouleBleue2{
+	margin: auto;
+	text-align: center;
+	color:#45aed6;
+}
+#nosProjets .fa-circle{
+	border: 3px solid white;
+	border-radius: 100%;
+	position: relative;	
+}
+.droite2{
+	position: relative;
+	left: 40px;
+	top: -20px;
+}
+.gauche2{
+	position: relative;
+	left: -40px;
+	top: 18px;
+}
+#allWorks li:nth-child(1){
+	border-radius: 5px 0 0 5px;
+}
+#allWorks li:nth-child(4){
+	border-radius:  0 5px 5px 0;
+}
+#allWorks ul{
+	list-style-type: none;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0px 25px 0px ;
+	text-decoration: none; 
+	margin:40px;
+}					
+#allWorks li{
+	padding: 10px 20px 10px 20px;
+	background-color:#e5e5e5;
+	margin: 0px;
+	cursor: pointer;
+	width: 70px;
+	text-decoration: none;
+	position: relative;
+}
+#allWorks li a{
+	text-decoration: none;
+	color: black;
+}
+#allWorks li a:hover{
+	color: white;
+}
+#portfolio li:hover{
+	background-color:#45aed6;
+	border-bottom: 2px solid #3b8dac;
+}
+.fa-sort-down{
+	padding: 0px;
+	margin:0px;
+	color:transparent;
+	position: absolute;
+	bottom: -8px;
+	right: 50px;
+}
+#allWorks li:hover .fa-sort-down{
+	display: block;
+	color: #3b8dac;
+}
+#allWorks li:hover a{
+	color: #FFF;	
+	display: block;
+	margin: 0px;
+}	
+#all {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+	max-width: 1300px;
+	margin: auto;
+}
+#allWorks p{
+	cursor: pointer; 
+	color: white;
+	text-align: left;
+}
+.creat, .corp, .port{
+	margin-bottom: 30px;
+}											
+ .creat img, .corp img, .port img{ 
+	width: 300px;
+}
+#all figure{
+	margin: auto;
+	margin-bottom: 20px;
+}
+.texte{
+	position: absolute;
+	display: none;
+	width:280px;
+	height: 60px;
+	bottom: 4px;
+	left: 0px;
+	background: rgba(0,0,0,.5);
+	padding: 10px;
+}
+.creat:hover .texte, .corp:hover .texte, .port:hover .texte{
+	display: block;
+}
+ .fa-eye{
+	position: absolute;
+	bottom: 60px;
+	right: 8px;
+	display: none;
+	color: white;
+	background-color: #45aed6;
+	border:2px solid white;
+	border-radius: 100%;
+	padding: 13px;
+	font-size: 10px;
+}
+#allWorks .all, .creat, .corp, .port{
+	display: block;
+	position: relative;
+	} 
+	/*propietés des a de qu'ils sont cliqués et fixes*/
+	#allWorks:target  a[href="#allWorks"],
+	 #creative:target   a[href="#creative"], 
+	  #corporate:target  a[href="#corporate"], 
+	   #portfolio:target  a[href="#portfolio"]{
+		display: block;
+		color: white;	
+	}
+	#allWorks li:nth-child(1){
+		background-color:#45aed6;
+		border-bottom: 2px solid #3b8dac;
+		color: white;
+	}
+	#allWorks li:nth-child(1) .fa-sort-down{
+		display: block;
+		color: #3b8dac;
+	}
+		/*propietés des li de qu'ils sont cliqués et fixes*/
+	#allWorks:target li:nth-child(1),
+	 #creative:target li:nth-child(2),
+	  #corporate:target li:nth-child(3),
+	   #portfolio:target li:nth-child(4){
+		display: block;
+		background-color:#45aed6;
+		border-bottom: 2px solid #3b8dac;	
+	}
+	#allWorks:target li:nth-child(1) .fa-sort-down,
+	 #creative:target li:nth-child(2) .fa-sort-down,
+	  #corporate:target li:nth-child(3) .fa-sort-down,
+	   #portfolio:target li:nth-child(4) .fa-sort-down{
+		display: block;
+		color: #3b8dac;
+	}
+		/*faire  all works normal lorsque en click dans une autre categorie ex creative, all works devient gris avec les lettres en blanc*/
+	#creative:target #portfolio li:nth-child(1),
+	 #corporate:target #portfolio li:nth-child(1),
+	  #portfolio:target  li:nth-child(1){
+		background-color:#e5e5e5;
+		color: black;
+		border:none;
+	}
+	#creative:target #portfolio li:nth-child(1) .fa-sort-down,
+	 #corporate:target #portfolio li:nth-child(1) .fa-sort-down,
+	  #portfolio:target li:nth-child(1) .fa-sort-down{
+		display: none;
+	}
+	#creative:target #portfolio li:nth-child(1) a,
+	#corporate:target #portfolio li:nth-child(1) a,
+	#portfolio:target li:nth-child(1) a[href="#allWorks"]{
+		color: black;
+	}
+	#allWorks li:nth-child(1) a{
+	color: white;
+	}
+	/*hover o survol du li all Works*/
+	#creative:target #portfolio li:nth-child(1):hover,
+	#corporate:target #portfolio li:nth-child(1):hover,
+	#portfolio:target li:nth-child(1):hover{
+		color: white;
+		background:#45aed6;
+		border-bottom: 2px solid #3b8dac;
+	}
+	#creative:target #portfolio li:nth-child(1):hover a,
+	#corporate:target #portfolio li:nth-child(1):hover a,
+	#portfolio:target li:hover a[href="#allWorks"]{
+		color: white;
+		display: block;
+	}
+
+	/*activer hover fleche*/
+	#creative:target #portfolio li:nth-child(1):hover .fa-sort-down,
+	#corporate:target #portfolio li:nth-child(1):hover .fa-sort-down,
+	#portfolio:target li:nth-child(1):hover .fa-sort-down{
+		display: block;
+		color: #3b8dac;
+	}
+	#allWorks:target #portfolio li:nth-child(3):hover .fa-sort-down,
+	#creative:target #portfolio li:nth-child(3):hover .fa-sort-down,
+	#corporate:target #portfolio li:nth-child(3):hover .fa-sort-down,
+	#portfolio:target li:nth-child(3):hover .fa-sort-down{
+		display: block;
+		color: #3b8dac;
+	}
+	#allWorks:target #portfolio li:nth-child(2):hover .fa-sort-down,
+	#corporate:target #portfolio li:nth-child(2):hover .fa-sort-down,
+	#portfolio:target li:nth-child(2):hover .fa-sort-down{
+		display: block;
+		color: #3b8dac;
+	}
+	#allWorks:target #portfolio li:nth-child(4):hover .fa-sort-down,
+	#creative:target #portfolio li:nth-child(4):hover .fa-sort-down,
+	#corporate:target #portfolio li:nth-child(4):hover .fa-sort-down,
+	#portfolio:target li:nth-child(4):hover .fa-sort-down{
+		display: block;
+		color: #3b8dac;
+	}
+		/*activer les photos par rapport de la categorie , ce soit all works, creative, etc*/
+	#allWorks:target #all .creat,
+	 #allWorks:target #all .corp,
+	  #allWorks:target #all .port {
+		display: block;
+	}
+	#creative:target .creat{
+		display: block;
+	}
+	#creative:target  .port,
+	 #creative:target  .corp,
+	  #creative:target  .all{
+		display: none;
+	}
+	#corporate:target .corp {
+		display: block;
+	}
+	#corporate:target .creat,
+	 #corporate:target .port,
+	  #corporate:target .all {
+		display: none;
+	}
+	#portfolio:target .port{
+		display: block;
+	}
+	#portfolio:target .creat,
+	 #portfolio:target .corp,
+	  #portfolio:target .all{
+		display: none;
+	}
+													/*contact*/
+
+#formulaire{
+	text-align: left;
+}
+#contact p{
+	text-align: left;
+}
+form{
+	float:left;
+	background-color:rgb(248, 248, 248); 
+	width: 320px;
+	height: 450px;
+	padding: 10px;
+	top:10px;
+	right:0px;
+	opacity: 0.8;
+	position: absolute;
+}	
+
+textarea{
+	width: 303px;
+	height: 150px;
+}
+iframe{
+	width:100%;
+	height:600px;
+	position: relative;	
+}
+.fondBleu{
+	width: 100%;
+	background-color: rgba(69, 174, 214, 0.3);
+	position: absolute;
+	top: 22px;
+	height: 100%;
+}
+/*Desactiver fond bleu de qu'on clic sur le plan*/
+#contact:target .fondBleu{
+	display: none;
+}
+#contact form{
+	position: absolute;
+	top: 80px;
+	right:80px;
+}
+#contact {
+	position: relative;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+#boutonEnvoyer{
+	background-color: #45aed6;
+	border-bottom: 2px solid #3b8dac;
+	color: white;
+	height: 30px;
+	margin-top: 20px;
+	position: relative;
+	bottom: 13px;
+}
+form input{
+	margin-bottom: 15px;
+	width: 303px;
+}
+#boutonEnvoyer{
+	width: 100px;
+}
+
+
